@@ -1,0 +1,990 @@
+/* NOTE: CORPS DE LA PAGE */
+body {
+    font-family: 'roboto', sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+/* NOTE: BLOCK DU HAUT DE LA PAGE */
+.topbar {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #FFF;
+    z-index: 9000;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: lighter;
+}
+
+#lienservice {
+    position: relative;
+    bottom: 150px;
+}
+
+#lienportfolio {
+    position: relative;
+    bottom: 80px;
+}
+
+#liencontact {
+    position: relative;
+    bottom: 80px;
+}
+
+/* NOTE: LOGO DE L'AGENCE  */
+.logo {
+    padding-top: 15px;
+}
+
+/* NOTE: BLOCK DE NAVIGATION */
+.page-nav label, #hamburger {
+    display: none;
+}
+
+.burger {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+/* NOTE: ÉLÉMENTS DE LA NAVIGATION */
+nav li {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    border-top: 3px #FFF solid;
+}
+
+nav li:hover {
+    border-top: 3px #5cadd3 solid;
+}
+
+/* NOTE: LIENS DE LA NAVIGATION */
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* NOTE: STYLE DU CALL TO ACTION */
+.weba {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* NOTE: COULEUR DU NOM DE L'AGENCE */
+.webag {
+    color: #5cadd3;
+}
+
+/* NOTE: BOLD DE LA PARTIE PROJETS WEB */
+.projetweb {
+    font-weight: lighter;
+}
+
+/* NOTE: BLOCK DE LA PARTIE CALL TO ACTION */
+.section0 {
+    position: relative;
+    display: flex;
+    padding-top: 3%;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+/* NOTE: CALL TO ACTION*/
+.cta {
+    position: absolute;
+    left: 12%;
+    color: #FFF;
+}
+
+/* NOTE: BOUTON DU CALL TO ACTION */
+.bouton1 {
+    color: #FFF;
+    background-color: #5cadd3;
+    font-size: 18px;
+    border-radius: 2px;
+    padding: 15px 25px 15px 25px;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: inset 0 -2px 0 0 #468cad;
+
+}
+
+.bouton1:hover {
+    background-color: orange;
+    transition: 0.2s ease;
+}
+
+/* NOTE: BLOCK DE LA PARTIE BANNIÈRE */
+.slidertotal {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* NOTE: IMAGE DE LA BANNIÈRE */
+.imagedefond {
+    margin-left: 0;
+    width: 100%;
+}
+
+/* NOTE: BLOCK DES FLECHES SLIDER */
+.fleches {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    bottom: 40%;
+}
+
+/* NOTE: DESIGN DE LA FLÈCHE DE GAUCHE */
+.flechegauche {
+    position: relative;
+    padding-left: 13px;
+    padding-right: 23px;
+    font-size: 25px;
+    text-align: center;
+    color: #FFF;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    width: 10px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0px 60px 60px 0px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+/* NOTE: FLECHE AU SURVOL */
+.flechegauche:hover, .flechedroite:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* NOTE: DESIGN DE LA FLECHE DE DROITE */
+.flechedroite {
+    position: absolute;
+    padding-left: 23px;
+    padding-right: 13px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    color: #FFF;
+    right: 0px;
+    width: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 60px 0px 0px 60px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+/* NOTE: BARRE DE POSITION DU SLIDER */
+.barrechangement {
+    position: absolute;
+    width: 250px;
+    height: 5px;
+    left: 0;
+    background-color: #5cadd3;
+    z-index: 700;
+    transform: translateY(-180%);
+}
+
+/* NOTE: CERCLE DE LA PARTIE SERVICES */
+.cercle1 {
+    color: #5cadd3;
+}
+
+/* NOTE: BLOCK DE LA SECTION SERVICE */
+.secton1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* NOTE: BLOCK DE L'IMAGE IMAC */
+.apple {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 50px;
+    padding-bottom: 85px;
+    max-width: 2000px;
+    margin: auto;
+}
+
+/* NOTE: DESIGN DES IMAGES DU SERVICE */
+.symbole1, .symbole2, .symbole3 {
+    font-size: 25px;
+    color: #5cadd3;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+/* NOTE: IMAGE DE L'IMAC */
+.imac {
+    margin-left: 15%;
+}
+
+/* NOTE: BLOCK DE LA PARTIE SAVOIR FAIRE */
+.savoirfaire {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 10%;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* NOTE: TEXTE DE DESCRIPTION DES DIFFÉRENTS SERVICES */
+.ux, .ui, .referencement {
+    font-size: 20px;
+    margin-bottom: -7px;
+}
+
+/* NOTE: CERCLES DE LA PARTIE PROJETS */
+.presta1, .presta2, .presta3 {
+    color: #5cadd3;
+    font-size: 12px;
+    margin-left: -7px;
+    background-color: #FFF;
+    padding: 5px 1px 5px 1px;
+}
+
+/* NOTE: BLOCK DES DIAGRAMMES */
+.diagramme1, .diagramme2, .diagramme3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* NOTE: BLOCK DANS LE BLOCK */
+.uxdesign, .uidesign, .seo {
+    display: flex;
+    margin-right: 20px;
+}
+
+/* NOTE: BLOCK PAR SERVICE */
+.vente1, .vente2, .vente3 {
+    margin-left: 4%;
+}
+
+/* NOTE: DESCRIPTIF DE LA PARTIE SERVICES */
+.lesservices {
+    text-align: center;
+}
+
+/* NOTE: TITRE DE LA PARTIE SERVICES */
+.services2 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+/* NOTE: DÉBUT DE LA PARTIE PROJETS */
+.section2 {
+    background-color: #f5f5f5;
+    padding-bottom: 80px;
+    margin: auto;
+}
+
+/* NOTE: SÉPARATEUR DE SECTION */
+hr {
+    height: 1px;
+    background-color: #d9d9d9;
+    border-style: none;
+    width: 150px;
+}
+
+/* NOTE: ROND DES SÉPARATEURS DE SECTION */
+.separateur1 {
+    position: relative;
+    top: -23px;
+    background-color: #FFF;
+    width: 25px;
+    color: #5cadd3;
+    padding: 6px 1px 2px 2px;
+}
+
+/* NOTE: ROND DES SÉPARATEURS DE SECTION */
+.separateur2 {
+    position: relative;
+    top: -23px;
+    background-color: #FFF;
+    border-radius: 100%;
+    width: 25px;
+    color: #5cadd3;
+    padding: 3px 1px 3px 3px;
+}
+
+/* NOTE: BLOCK DE LA NAVIGATION PORTFOLIO */
+
+
+.navigationportfolio ul {
+    width: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.naportfo {
+    position: relative;
+}
+
+.naportfo:hover .flechedubas {
+    opacity: 1;
+    top: 18px;
+}
+
+.flechedubas {
+    position: absolute;
+    left: 42%;
+    color: #468cad;
+    font-size: 25px;
+    opacity: 0;
+}
+.flechedubas1 {
+    position: absolute;
+    left: 42%;
+    color: #468cad;
+    font-size: 25px;
+    opacity: 1;
+    top: 18px;
+}
+
+/* NOTE: ÉLÉMENTS DE LA NAVIGATION PORTFILIO */
+.allworks a {
+    background-color: #5cadd3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 4px 0px 0px 4px;
+    text-decoration: none;
+    color: #FFF;
+    width: 100%;
+    box-shadow: inset 0 -3px 0 0 #468cad
+
+}
+
+.creative a {
+    background-color: #e5e5e5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #323437;
+    width: 100%;
+}
+
+.creative a:hover {
+    background-color: #5cadd3;
+    color: #FFF;
+    box-shadow: inset 0 -3px 0 0 #468cad
+}
+
+.corporate a {
+    background-color: #e5e5e5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #323437;
+    width: 100%;
+}
+
+.corporate a:hover {
+    background-color: #5cadd3;
+    color: #FFF;
+    box-shadow: inset 0 -3px 0 0 #468cad
+}
+
+.portfolio a {
+    background-color: #e5e5e5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 0px 4px 4px 0px;
+    text-decoration: none;
+    color: #323437;
+    width: 100%;
+}
+
+.portfolio a:hover {
+    background-color: #5cadd3;
+    color: #FFF;
+    box-shadow: inset 0 -3px 0 0 #468cad
+}
+
+/* NOTE: DESCRIPTIF DE LA PARTIE PROJET */
+.Nosprojets {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* NOTE: STYLE DU TITRE DE LA PARTIE PROJET */
+.projets2 {
+    font-size: 50px;
+}
+
+/* NOTE: BLOCK DES DEUX LIGNES DES IMAGES DU PORTFOLIO */
+.imagesportfolio {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 1300px;
+}
+
+.conteneur {
+    min-width: 120px;
+    width: 290px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imagesportfolioo {
+    width: 100%;
+    height: auto;
+}
+
+.conteneur img {
+    width: 100%;
+    margin: 10px;
+}
+
+.conteneur:hover .texteportfolio {
+    opacity: 1;
+    bottom: 0px;
+    margin-bottom: 14px;
+}
+
+.texteportfolio {
+    text-align: left;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    line-height: 9px;
+    padding: 2px 12px;
+    opacity: 0;
+    bottom: -27%;
+    left: 0;
+    transition: 0.3s ease-in;
+    margin: 10px;
+    width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+.icone1 {
+    position: absolute;
+    background-color: #5cadd3;
+    color: #FFF;
+    left: 70%;
+    top: -28%;
+    padding: 10px;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+}
+
+/* NOTE: BLOCK DU FORMULAIRE DE CONTACT */
+fieldset {
+    width: 400px;
+    height: 600px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgba(240, 245, 247, 0.9);
+}
+
+/* NOTE: ESPACE ENTRE LA BORDURE ET LE FORMULAIRE */
+.bordure {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* NOTE: BLOCK DES INFORMATIONS */
+.informations {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40%;
+    padding-top: 4%;
+    z-index: 4000;
+}
+
+/* NOTE: STYLING DES INFORMATIONS */
+.contactinfo {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+/* NOTE: STYLING DES INFORMATIONS */
+.sas {
+    font-weight: bold;
+}
+
+/* NOTE: STYLING DES INFORMATIONS */
+.renseignements {
+    line-height: 8px;
+}
+
+/* NOTE: STYLING DES INFORMATIONS */
+.telephone {
+    padding-bottom: 7px;
+}
+
+/* NOTE: STYLING DES CASES DU FORMULAIRE DE CONTACT */
+input[type=text], textarea {
+    font-size: 15px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+}
+
+/* NOTE: BOUTON DU FORMULAIRE DE CONTACT */
+.bouton2 {
+    color: #FFF;
+    background-color: #5cadd3;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.bouton2:hover {
+    background-color: orange;
+    transition: 0.2s ease;
+}
+
+/* NOTE: BLOCK DE LA PARTE FOOTER */
+.gmap_canvas {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+/* NOTE: RÉGLAGES DE GOOGLE MAPS */
+.googlemaps {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-height: 850px;
+    opacity: 0.5;
+    z-index: 600;
+    border: 0px;
+}
+
+/* NOTE: FOND BLEU DU GOOGLE MAPS */
+.colorblue {
+    position: absolute;
+    background-color: #5cadd3;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 500;
+    padding-bottom: 0;
+    max-height: 850px;
+}
+
+.gmap_canvas {
+    padding-bottom: 0px;
+}
+
+/**********************************************************************************************
+NOTE: RESPONSIVE DU DESIGN
+/***********************************************************************************************/
+
+
+@media all and (max-width: 1280px) {
+    .conteneur {
+        width: 250px;
+    }
+    .gmap_canvas {
+        width: auto;
+        padding-bottom: 50px;
+    }
+
+    .apple {
+        flex-wrap: wrap;
+    }
+
+    .imac {
+        margin-left: 0;
+    }
+
+    .savoirfaire {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .informations {
+        margin-left: 0;
+    }
+
+    .imac {
+        margin: auto;
+    }
+
+    .lesservices {
+        padding: 10px;
+    }
+
+    .services2 {
+        padding: 10px;
+    }
+
+    .topbar {
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .logo {
+        position: relative;
+        margin-left: 10%;
+        padding-bottom: 4px;
+    }
+
+    .logo1 {
+        max-width: 220px;
+    }
+}
+
+@media all and (max-width: 1400px) {
+    .weba {
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width: 1150px) {
+    .weba {
+        font-size: 27px;
+    }
+
+    .cta {
+        font-size: 14px;
+    }
+    .fleches{
+        bottom: 35%;
+
+    }
+    .conteneur {
+        width: 220px;
+
+    }
+}
+
+@media all and (max-width: 1000px) {
+
+.imagesportfolio {
+    max-width: 600px;
+}
+
+}
+
+
+@media all and (max-width: 950px) {
+    .weba {
+        font-size: 28px;
+        margin-top: 60px;
+    }
+
+    .cta {
+        font-size: 12px;
+    }
+
+}
+
+@media all and (max-width: 900px) {
+    .weba {
+        margin-top: 60px;
+        font-size: 22px;
+    }
+
+    .bouton1 {
+        color: #FFF;
+        background-color: #5cadd3;
+        font-size: 14px;
+        padding: 15px 25px 15px 25px;
+        margin-top: 5px;
+    }
+
+    .cta {
+        font-size: 10px;
+    }
+
+    .lesservices {
+        padding: 0;
+    }
+}
+
+
+
+@media all and (max-width: 750px) {
+    .informations {
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .conteneur:hover .texteportfolio {
+        opacity: 0;
+
+    }
+    .fleches {
+        display: none;
+    }
+
+    .barrechangement {
+        display: none;
+    }
+
+    .page-nav {
+        width: 100%;
+    }
+
+    .page-nav ul li {
+        display: inline-block;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .page-nav ul li a {
+        color: #000;
+    }
+
+    .page-nav label {
+        display: flex;
+        color: #000;
+        font-style: normal;
+        font-size: 33px;
+        padding: 15px;
+    }
+
+    /* Break down menu items into vertical */
+    .page-nav ul li {
+        display: flex;
+    }
+
+    .page-nav ul li {
+        border-top: 1px solid #333;
+    }
+
+    /* Toggle show/hide menu on checkbox click */
+    .page-nav ul {
+        display: none;
+    }
+
+    .page-nav input:checked~ul {
+        display: block;
+        color: #FFF;
+    }
+
+    .logo {
+        position: absolute;
+        top: 15px;
+        right: 6%;
+    }
+
+    .logo1 {
+        width: 170px;
+    }
+
+    .bouton1 {
+        font-size: 12px;
+        padding: 5px 15px 5px 15px;
+    }
+
+    .weba {
+        margin-top: 60px;
+        font-size: 20px;
+    }
+    .gmap_canvas {
+        flex-direction: column;
+
+    }
+
+    /* NOTE: RÉGLAGES DE GOOGLE MAPS */
+    .googlemaps {
+        margin-top: 550px;
+        max-height: 300px;
+
+    }
+
+    /* NOTE: FOND BLEU DU GOOGLE MAPS */
+    .colorblue {
+        margin-top: 550px;
+        max-height: 300px;
+    }
+}
+
+@media all and (max-device-width: 690px) {
+
+    .navigationportfolio ul{
+        position: relative;
+        margin: auto;
+        width: 250px;
+        font-size: 13px;
+        text-align: center;
+        padding: 0px;
+
+    }
+
+    .naportfo:hover .flechedubas {
+        opacity: 1;
+        top: 14px;
+    }
+    .flechedubas {
+        left: 39%;
+        font-size: 23px;
+
+    }
+    .flechedubas1 {
+        left: 39%;
+        font-size: 23px;
+        top: 14px;
+
+    }
+    .allworks a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .creative a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .corporate a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .portfolio a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .bouton1 {
+        font-size: 10px;
+        padding: 5px 15px 5px 15px;
+    }
+
+    .weba {
+        margin-top: 60px;
+        font-size: 17px;
+    }
+
+    .cta {
+        font-size: 7px;
+    }
+
+    .imagedefond {
+        padding-top: 20px;
+    }
+}
+
+/* NOTE: VERSIONS MOBILES */
+@media all and (max-device-width: 515px) {
+
+
+    .section0{
+        margin-bottom: -30px;
+    }
+
+
+    .ecran {
+        width: 350px;
+    }
+
+    .services2 {
+        font-size: 35px;
+    }
+
+    .projets2 {
+        font-size: 35px;
+    }
+
+    .projetweb {
+        display: none;
+    }
+
+    .weba {
+        margin-top: 60px;
+        font-size: 12px;
+    }
+
+
+
+
+
+}
+
+@media all and (max-device-width: 380px) {
+    .ecran {
+        width: 290px;
+    }
+
+    .bouton1 {
+        font-size: 7px;
+        padding: 5px 15px 5px 15px;
+    }
+
+    .weba {
+        margin-top: 60px;
+        font-size: 10px;
+    }
+
+    .imagedefond {
+        padding-top: 20px;
+    }
+
+    .services2 {
+        font-size: 30px;
+    }
+
+    .projets2 {
+        font-size: 30px;
+    }
+
+    .logo1 {
+        width: 160px;
+        margin-top: 0;
+    }
+}
