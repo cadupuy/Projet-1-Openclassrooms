@@ -3,9 +3,9 @@ Code source du Projet 1 de la formation Développeur Web d'OpenClassrooms, intit
 
 ## Version 1.0.0
 
-![La grille présentant les projets de la WebAgency](https://www.pablobuisson.fr/wp-content/uploads/2019/05/webagency-integration-web-3-50-768x480.png)
-
 ## Le projet
+
+![La grille présentant les projets de la WebAgency](https://www.pablobuisson.fr/wp-content/uploads/2019/05/webagency-integration-web-3-50-768x480.png)
 
 Vous venez d'être embauché(e) par une agence Web, la WebAgency, qui réalise des sites web pour différents clients. Sophie, la directrice technique de l’agence vous informe que le site actuel est vieillissant et que son équipe a peu de temps pour travailler dessus.
 
