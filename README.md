@@ -20,15 +20,17 @@ Cette single page est développée en **HTML** et **CSS**.
 + L'aspect visuel correspond à la maquette sur écran d'ordinateur
 + La maquette est adaptée de manière pertinente sur un terminal mobile
 
-###Coder la structure d'une page web en HTML
+### Coder la structure d'une page web en HTML
 + La page HTML passe la validation w3c HTML sans erreur
 + Les balises HTML sont définies avec la sémantique HTML 5 pertinente
 + Les icônes sont crées avec un outil pertinent, type  font-awesome
+
 ### Coder la présentation d'une page web en CSS
 + Le code CSS passe la validation w3c CSS
 + Le code CSS est écrit dans un ou plusieurs fichier CSS
 + Aucun code CSS n'est appliqué via un attribut style  dans une balise HTML
 + La zone avec le menu reste visible, en haut de la page, même lorsque l'on se déplace dans la page
+
 ### Gérer la responsivité avec les Media Queries 
 + Le viewport est configuré dans l'en-tête de la page HTML
 + (Au moins) Un breakpoint pertinent est défini
